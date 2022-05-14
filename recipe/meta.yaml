@@ -1,4 +1,4 @@
-{% set version = "1.2.3-1" %}
+{% set version = "1.2.3-6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gap/gap_{{ version }}.tar.gz
-  sha256: 343ae58ca91e75147ae3961285c3413bdf6dedf7cb4743a822a6c5b16d1b89e7
+  sha256: 0ef352aa98a3bf27908b256f27a903058502176ea9112a4ffc41928ebbc48c22
 
 build:
   merge_build_host: true  # [win]
