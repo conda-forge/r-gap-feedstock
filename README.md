@@ -3,6 +3,7 @@ About r-gap-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gap-feedstock/blob/main/LICENSE.txt)
 
+
 About r-gap
 -----------
 
@@ -11,6 +12,7 @@ Home: https://github.com/jinghuazhao/R
 Package license: GPL-2.0-or-later
 
 Summary: It is designed as an integrated package for genetic data analysis of both population and family data. Currently, it contains functions for sample size calculations of both population-based and family-based designs, probability of familial disease aggregation, kinship calculation, statistics in linkage analysis, and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.
+
 About r-gap
 -----------
 
