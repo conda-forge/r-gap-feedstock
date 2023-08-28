@@ -40,7 +40,7 @@ requirements:
   host:
     - r-base
     - r-dplyr
-    - r-gap.datasets
+    - r-gap.datasets >=0.0.6
     - r-ggplot2
     - r-plotly
     - r-rdpack
@@ -48,7 +48,7 @@ requirements:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-dplyr
-    - r-gap.datasets
+    - r-gap.datasets >=0.0.6
     - r-ggplot2
     - r-plotly
     - r-rdpack
