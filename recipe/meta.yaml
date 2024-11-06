@@ -1,4 +1,4 @@
-{% set version = "1.5-1" %}
+{% set version = "1.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gap/gap_{{ version }}.tar.gz
-  sha256: 0d4d37045f5712ebd010cad0617f8e88a021b15fd25d899e4ec222af74e313dc
+  sha256: 9cff9b6f5c83a15fdf49b9bc0e165a596d54f0e246d27447e59931faf690e0df
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
