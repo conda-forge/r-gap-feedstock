@@ -1,4 +1,4 @@
-{% set version = "1.6" %}
+{% set version = "1.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gap/gap_{{ version }}.tar.gz
-  sha256: 9cff9b6f5c83a15fdf49b9bc0e165a596d54f0e246d27447e59931faf690e0df
+  sha256: 92cb665b19ce0a143f7bac89b8a3dc7fd7c567f47562735b63b21b555fc45982
 
 build:
   number: 0
@@ -63,8 +63,8 @@ test:
 about:
   home: https://github.com/jinghuazhao/R
   license: GPL-2.0-or-later
-  summary: It is designed as an integrated package for genetic data analysis of both population and family data. Currently, it contains functions for sample size calculations of both population-based and family-based designs, probability of familial disease aggregation, kinship calculation, statistics in linkage analysis,
-    and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.
+  summary: It is designed as an integrated package for genetic data analysis of both population and family data. Currently, it contains functions for sample size calculations of both population-based and family-based designs, probability of familial disease aggregation, kinship calculation, statistics in linkage 
+    analysis, and association analysis involving genetic markers including haplotype analysis with or without environmental covariates.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
